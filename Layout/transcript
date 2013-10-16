@@ -1,0 +1,162 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project irobot
+vsim -sdfmax {/Robot_Top_tb/=/ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/robot.sdf} -t 10ps -novopt work.Robot_Top_Test
+# vsim -sdfmax {/Robot_Top_tb/=/ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/robot.sdf} -t 10ps -novopt work.Robot_Top_Test 
+# Loading work.Robot_Top_Test
+# Loading work.Robot_Top
+# Loading work.BUF_X32
+# Loading work.CLKBUF_X1
+# Loading work.Motion_Commands
+# Loading work.motion_control
+# Loading work.DFF_X1
+# Loading work.AND2_X1
+# Loading work.NAND2_X1
+# Loading work.OAI21_X1
+# Loading work.DLH_X1
+# Loading work.OR2_X1
+# Loading work.INV_X1
+# Loading work.NOR4_X1
+# Loading work.NOR2_X1
+# Loading work.Motion_decision_fsm
+# Loading work.increment_unsigned
+# Loading work.XOR2_X1
+# Loading work.HA_X1
+# Loading work.DLL_X1
+# Loading work.SDFF_X1
+# Loading work.AOI22_X1
+# Loading work.NOR2_X4
+# Loading work.NAND3_X1
+# Loading work.OAI221_X1
+# Loading work.OR3_X1
+# Loading work.NAND4_X1
+# Loading work.AOI211_X1
+# Loading work.AOI221_X1
+# Loading work.OAI22_X1
+# Loading work.XNOR2_X1
+# Loading work.Random_Num_Gen_56
+# Loading work.flipflop_61
+# Loading work.flipflop_62
+# Loading work.flipflop_63
+# Loading work.flipflop_64
+# Loading work.flipflop_65
+# Loading work.flipflop_66
+# Loading work.flipflop_67
+# Loading work.flipflop_68
+# Loading work.flipflop_69
+# Loading work.flipflop_70
+# Loading work.mux_86
+# Loading work.mux_104
+# Loading work.mux_102
+# Loading work.mux_100
+# Loading work.mux_98
+# Loading work.mux_96
+# Loading work.mux_94
+# Loading work.mux_92
+# Loading work.mux_90
+# Loading work.mux_88
+# Loading work.Random_Num_Gen
+# Loading work.flipflop_71
+# Loading work.flipflop_72
+# Loading work.flipflop_73
+# Loading work.flipflop_74
+# Loading work.flipflop_75
+# Loading work.flipflop_76
+# Loading work.flipflop_77
+# Loading work.flipflop_78
+# Loading work.flipflop_79
+# Loading work.flipflop
+# Loading work.mux_105
+# Loading work.mux_103
+# Loading work.mux_101
+# Loading work.mux_99
+# Loading work.mux_97
+# Loading work.mux_95
+# Loading work.mux_93
+# Loading work.mux_91
+# Loading work.mux_89
+# Loading work.mux_87
+# Loading work.Wheel_Control
+# Loading work.Real_Speed_to_step_clk_Frequency
+# Loading work.mult_unsigned_const_1
+# Loading work.AOI21_X1
+# Loading work.XOR2_X2
+# Loading work.XNOR2_X2
+# Loading work.FA_X1
+# Loading work.INV_X2
+# Loading work.MUX2_X2
+# Loading work.divide_unsigned_631_106
+# Loading work.OAI211_X1
+# Loading work.AOI222_X1
+# Loading work.AND3_X1
+# Loading work.NOR3_X1
+# Loading work.AOI211_X4
+# Loading work.AOI221_X2
+# Loading work.OAI33_X1
+# Loading work.AOI222_X4
+# Loading work.MUX2_X1
+# Loading work.OR4_X1
+# Loading work.increment_unsigned_2
+# Loading work.NOR2_X2
+# Loading work.AND4_X1
+# Loading work.Speed_Stepper_FSM
+# Loading work.bin_to_real
+# Loading work.AND2_X2
+# Loading work.Wheel_Control_59
+# Loading work.Speed_Stepper_FSM_58
+# Loading work.decision_mux
+# Loading work.spiral_move
+# Loading work.mult_unsigned_const_190
+# Loading work.increment_unsigned_3
+# Loading work.increment_unsigned_4
+# Loading work.OAI222_X1
+# Loading work.OR2_X2
+# Loading work.turn_around_move
+# Loading work.increment_unsigned_5
+# SDF 6.6b Compiler 2010.05 May 21 2010
+# usage: sdfcom [ options ] source-file output-file
+# Options:
+#   -mindelays          Use minimum timing from min:typ:max expressions
+#   -typdelays          Use typical timing from min:typ:max expressions (default)
+#   -maxdelays          Use maximum timing from min:typ:max expressions
+#   -delayscale <val>   Scale delays by the specified value
+#   -nocompress         Don't compress the resulting output file
+#   -suppress <msg(s)>  Suppress comma-separed list of error/warning messages
+# Loading work.seq_DFF_X1
+# Loading work.seq_DLH_X1
+# Loading work.seq_DLL_X1
+# Loading work.seq_SDFF_X1
+# Loading work.ng_xbuf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /Robot_Top_Test  File: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Robot_Top_Test.v
+run 10us
+# ** Error: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Layout/NangateOpenCellLibrary.v(2237): $setup( negedge D:75470 ps, negedge G:75510 ps, 180 ps );
+#    Time: 75510 ps  Iteration: 1  Instance: /Robot_Top_Test/Robot_Top_tb/Motion_decision_fsm1/random_enable_reg
+# ** Error: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Layout/NangateOpenCellLibrary.v(2237): $setup( negedge D:275410 ps, negedge G:275450 ps, 180 ps );
+#    Time: 275450 ps  Iteration: 1  Instance: /Robot_Top_Test/Robot_Top_tb/Motion_decision_fsm1/random_enable_reg
+# ** Error: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Layout/NangateOpenCellLibrary.v(2344): $setup( posedge D:275540 ps, posedge GN:275560 ps, 70 ps );
+#    Time: 275560 ps  Iteration: 0  Instance: /Robot_Top_Test/Robot_Top_tb/Motion_decision_fsm1/RandomLoad_reg
+add wave \
+{sim:/Robot_Top_Test/clk } \
+{sim:/Robot_Top_Test/rst } \
+{sim:/Robot_Top_Test/bump } \
+{sim:/Robot_Top_Test/wheel_wires_left } \
+{sim:/Robot_Top_Test/wheel_wires_right } 
+restart -f
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /Robot_Top_Test  File: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Robot_Top_Test.v
+run 10us
+# ** Error: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Layout/NangateOpenCellLibrary.v(2237): $setup( negedge D:75470 ps, negedge G:75510 ps, 180 ps );
+#    Time: 75510 ps  Iteration: 1  Instance: /Robot_Top_Test/Robot_Top_tb/Motion_decision_fsm1/random_enable_reg
+# ** Error: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Layout/NangateOpenCellLibrary.v(2237): $setup( negedge D:275410 ps, negedge G:275450 ps, 180 ps );
+#    Time: 275450 ps  Iteration: 1  Instance: /Robot_Top_Test/Robot_Top_tb/Motion_decision_fsm1/random_enable_reg
+# ** Error: /ad/eng/users/k/m/kmclaugh/Desktop/EC 772/project/src/Layout/NangateOpenCellLibrary.v(2344): $setup( posedge D:275540 ps, posedge GN:275560 ps, 70 ps );
+#    Time: 275560 ps  Iteration: 0  Instance: /Robot_Top_Test/Robot_Top_tb/Motion_decision_fsm1/RandomLoad_reg

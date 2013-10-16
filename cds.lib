@@ -1,0 +1,11 @@
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+UNDEFINE basic
+
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE NangateOpenCellLibrary /opt/cadence/Nangate_PDKv1_3/Back_End/virtuoso/NangateOpenCellLibrary
+DEFINE avTech /ad/eng/opt/cadence/ASSURA4_614/tools/assura/etc/avtech/avTech
